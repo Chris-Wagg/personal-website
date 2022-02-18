@@ -5,9 +5,6 @@ import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
 import './styles.css'
 
-const image1 =
-	'https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'
-
 export default function PageThree() {
 	const [currentSlide, setCurrentSlide] = useState(0)
 	const [loaded, setLoaded] = useState(false)
