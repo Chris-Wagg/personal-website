@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+[class^='number-slide'],
+[class*=' number-slide'] {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+	height: 500px;
+	padding: 12.6rem 0;
+}
+
+.navigation-wrapper {
+	position: relative;
+}
+
+.dots {
+	display: flex;
+	padding: 10px 0;
+	justify-content: center;
+}
+
+.dot {
+	border: none;
+	width: 10px;
+	height: 10px;
+	background: #c5c5c5;
+	border-radius: 50%;
+	margin: 0 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.dot:focus {
+	outline: none;
+}
+
+.dot.active {
+	background: #000;
+}
+
+.arrow {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	fill: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.arrow--left {
+	left: 5px;
+}
+
+.arrow--right {
+	left: auto;
+	right: 5px;
+}
+
+.arrow--disabled {
+	fill: rgba(0, 0, 0, 0.5);
+}
+
+.textBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10rem;
+}
+
+.backgroundImage {
+	position: relative;
+}
+
+.overlayText {
+	position: absolute;
+}
+
+.sideBySide {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.moveUp {
+	transform: translateY(-50px);
+}
