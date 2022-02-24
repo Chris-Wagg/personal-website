@@ -22,7 +22,7 @@ export default function PageTwo() {
 		<div className="App">
 			<Parallax
 				bgImage="./img/climbingWall.jpg"
-				blur={{ min: 0, max: 6 }}
+				blur={{ min: 0, max: 12 }}
 				strength={500}
 			>
 				<div style={{ height: '940px' }}>
